@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <h1>Welcome to calculator</h1>
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="display" disabled>
+            </div>
+            <div class="button">
+                <div class="row">
+                    <button id="AC" onclick="all_clear('AC')">AC</button>
+                    <button id="C" onclick="clear_value('C')">C</button>
+                    <button id="percentage" onclick="get_data('%')">%</button>
+                    <button id="divide" onclick="get_data('/')">/</button>
+                </div>
+
+                <div class="row">
+                    <button id="7" onclick="get_data('7')">7</button>
+                    <button id="8" onclick="get_data('8')">8</button>
+                    <button id="9" onclick="get_data('9')">9</button>
+                    <button id="multiplication" onclick="get_data('*')">*</button>
+                </div>
+
+                <div class="row">
+                    <button id="4" onclick="get_data('4')">4</button>
+                    <button id="5" onclick="get_data('5')">5</button>
+                    <button id="6" onclick="get_data('6')">6</button>
+                    <button id="subtraction" onclick="get_data('-')">-</button>
+                </div>
+
+                <div class="row">
+                    <button id="1" onclick="get_data('1')">1</button>
+                    <button id="2" onclick="get_data('2')">2</button>
+                    <button id="3" onclick="get_data('3')">3</button>
+                    <button id="addition" onclick="get_data('+')">+</button>
+                </div>
+
+                <div class="row">
+                    <button id="00" onclick="get_data('00')">00</button>
+                    <button id="0" onclick="get_data('0')">0</button>
+                    <button id="." onclick="get_data('.')">.</button>
+                    <button id="equal" onclick="calculate('=')">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+
+</html>

@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(0, 0, 0, 0.79),
+    rgba(0, 128, 0, 0.205)
+  );
+}
+h1 {
+  padding: 10px;
+  text-align: center;
+  color: rgba(229, 239, 226, 0.932);
+  font-weight: bolder;
+}
+
+.main {
+  margin: 10px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.calculator {
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(0, 0, 0, 0.79);
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(51, 49, 49);
+  width: 400px;
+  height: 580px;
+}
+
+.display {
+  padding: 10px;
+}
+
+.display input {
+  padding: 10px;
+  width: 360px;
+  height: 35px;
+  border-radius: 10px;
+  text-align: end;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  background-color: rgba(0, 128, 0, 0.205);
+}
+
+.row {
+  margin: 8px;
+}
+
+.button {
+  padding: 11px;
+}
+
+.button button {
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+  padding: 20px;
+  color: whitesmoke;
+  background-color: rgb(28, 29, 28);
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bolder;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.797);
+}
+
+#AC {
+  background-color: white;
+  color: black;
+}
+
+#C {
+  background-color: white;
+  color: black;
+}
+
+#percentage {
+  background-color: white;
+  color: black;
+}
+
+#divide {
+  background-color: white;
+  color: black;
+}
+
+#multiplication {
+  background-color: white;
+  color: black;
+}
+
+#subtraction {
+  background-color: white;
+  color: black;
+}
+
+#addition {
+  background-color: white;
+  color: black;
+}
+
+#equal {
+  background-color: white;
+  color: black;
+}
